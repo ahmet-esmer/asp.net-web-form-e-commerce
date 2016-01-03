@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Sitemap: http://www.lensoptik.com.tr/sitemap.xml 
+Disallow: /Admin/
+Disallow: http://www.lensoptik.com.tr/add?contact=info@lensoptik.com.tr
+Disallow: http://www.lensoptik.com.tr/icerik/ErrorPage/404State.aspx?errorurl=1
+Disallow: http://www.lensoptik.com.tr/market/sepet.aspx
+Disallow: http://www.lensoptik.com.tr/icerik/ErrorPage/Validation.aspx?errorurl=1
+Disallow: http://www.lensoptik.com.tr/icerik/ErrorPage/hataSayfasi.aspx
+Disallow: http://www.lensoptik.com.tr/icerik/ErrorPage/CookieState.aspx
+Disallow: http://www.lensoptik.com.tr/icerik/ErrorPage/ApplicationError.htm

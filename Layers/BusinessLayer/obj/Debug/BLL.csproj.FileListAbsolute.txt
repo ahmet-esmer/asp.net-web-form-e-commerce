@@ -1,0 +1,12 @@
+D:\Projeler\epikOptik\BLL\bin\Debug\BLL.dll
+D:\Projeler\epikOptik\BLL\bin\Debug\BLL.pdb
+D:\Projeler\epikOptik\BLL\obj\Debug\ResolveAssemblyReference.cache
+D:\Projeler\epikOptik\BLL\obj\Debug\BLL.dll
+D:\Projeler\epikOptik\BLL\obj\Debug\BLL.pdb
+D:\Projeler\LensOptik\BLL\bin\Debug\BLL.dll
+D:\Projeler\LensOptik\BLL\bin\Debug\BLL.pdb
+D:\Projeler\LensOptik\BLL\obj\Debug\ResolveAssemblyReference.cache
+D:\Projeler\LensOptik\BLL\obj\Debug\BLL.dll
+D:\Projeler\LensOptik\BLL\obj\Debug\BLL.pdb
+D:\Projeler\LensOptik\LensOptik.WebUI\Bin\BLL.dll
+D:\Projeler\LensOptik\LensOptik.WebUI\Bin\BLL.pdb

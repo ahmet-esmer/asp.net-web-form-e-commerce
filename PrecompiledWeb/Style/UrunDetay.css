@@ -1,0 +1,273 @@
+﻿
+#pnlRenkliLens{cursor:pointer;margin-top:5px; text-align:left;}
+
+#secenek1{display:inline;float:left;margin-right:20px}
+#secenek1 td{padding:0}
+#secenek2{display:inline;float:left;padding-top:10px}
+#secenekDiv{background-color:#fff;border:#d9dada solid 1px;clear:both;height:100%;padding:10px;width:878px}
+#urunBilgi
+{
+    background-color:#fff;border:#d9dada solid 1px; border-left-width:0px; display:inline;float:left;height:400px;margin-bottom:5px;width:595px; padding-left:10px; }
+    
+#urunButton{border:#d9dada solid 1px;display:inline;float:left;width:150px}
+#urunDetayDiv{margin:3px 10px 10px 10px}
+#urunGaleri{background-color:#fff;border:#d9dada solid 1px; border-right-color:#eeeeee;  display:inline;float:left;height:400px;margin-bottom:5px;width:290px}
+.UDaciklama{border-bottom:1px solid #eee;color:#525252;font-size:12px;height:30px;line-height:18px;padding:10px 10px 15px}
+.UDsatir{background-color:#fff;border-bottom:1px solid #eee;border-left:1px solid #d9dada;border-right:1px solid #d9dada}
+.UDsatir:hover,#ayrinti table tr:hover{background-color:#d5ebf5}
+.UDtavsiyeImg{margin:5px;width:60px}
+.UDtavsiyeTD{color:#069;float:left;font-size:13px;padding-bottom:20px}
+.UDtavsiyetdBosluk{float:left;padding-bottom:20px}
+
+.cloud-zoom-big{border:1px solid #d9dada;overflow:hidden}
+.cloud-zoom-lens{background-color:#fff;border:4px solid #d9dada;cursor:move;position:absolute}
+.cloud-zoom-loading{background-image:url(../Images/loading.gif);background-repeat:no-repeat;height:31px;width:31px}
+
+
+.fiyat{color:#383838;font-size:12px;padding-top:15px}
+.fiyatIndirim{color:#292929;font-size:12px;text-decoration:line-through}
+.formBilgi{color:#4c4c4c;padding-left:10px;padding-top:10px;width:180px}
+
+
+
+.imgOrtala{border:none}
+
+.kamBaslik{border-bottom:1px solid #9cf;color:#014F9A;font-size:13px;font-weight:700;padding-bottom:5px}
+.kamBilgi{padding-left:10px;width:220px}
+.kamFiyat{color:#de003e;font-size:14px;font-weight:700;text-decoration:line-through}
+.kamResim{text-align:center; min-height:200px;}
+
+.kucukResim{border:1px solid #d9dada;margin-left:5px;padding:2px}
+.lblUrunYorumBilgi{color:#069;font-size:14px;margin-bottom:40px;margin-left:15px;padding-top:40px}
+.mercekDiv{border-bottom:1px dotted #d9dada;height:30px;margin-bottom:10px;margin-left:15px;margin-right:10px;padding-top:10px;text-align:right}
+
+.mevcutSayfa{border:#d9dada solid 1px;
+             height:30px;
+             padding:0px 10px;
+             width:878px}
+.mevcutSayfa a {
+margin:10px 0;
+}
+.goruntu{float:right; color:#c1c7d1; padding-top:4px; text-align:right;width:300px;}
+             
+          
+#marka
+{
+    height:auto;
+    border:#d9dada solid 1px;
+    margin:5px 0;
+    padding:5px;          
+    width:888px
+}
+    
+      
+.digerMarka{display:inline;float:left;margin-left:10px;padding:6px 0;width:130px}
+ 
+ 
+
+#marka div a{color:#069;font-size:11px}
+#marka div a:hover{text-decoration:underline;}
+#marka div span{font-size:10px;font-weight:700}
+ 
+
+
+.not{color:#afafaf;font-size:11px;font-style:italic;padding:5px 0}
+.ortaResimDiv{padding-left:15px;text-align:center;width:250px}
+.popup{border-collapse:collapse;display:none;position:absolute;z-index:9999}
+.popup table.popup-contents{background-color:#fff;color:#666;font-size:12px;line-height:1.2em}
+.popup td.bottom{background-image:url(../Images/Slices/bubble-7.gif);text-align:center}
+.popup td.bottom img{display:block;margin:0 auto}
+.popup td.bottomleft{background-image:url(../Images/Slices/bubble-6.gif)}
+.popup td.bottomright{background-image:url(../Images/Slices/bubble-8.gif)}
+.popup td.corner{height:15px;width:19px}
+.popup td.left{background-image:url(../Images/Slices/bubble-4.gif)}
+.popup td.right{background-image:url(../Images/Slices/bubble-5.gif)}
+.popup td.top{background-image:url(../Images/Slices/bubble-2.gif)}
+.popup td.topleft{background-image:url(../Images/Slices/bubble-1.gif)}
+.popup td.topright{background-image:url(../Images/Slices/bubble-3.gif)}
+.ratingUrun{border-bottom:1px solid #eee;height:15px;padding-left:10px;padding-top:10px}
+.resimMercek{color:#5f5f5f;font-size:12px;padding-bottom:10px}
+.resimkucukDiv{margin:0 8px;padding:5px 0}
+.seacenkImg{display:inline;float:left}
+.sepetBosluk{margin-top:20px}
+.standart{background-repeat:no-repeat;cursor:pointer;height:13px;width:20px}
+.taksitDiv{border:1px solid #d9dada;display:inline;float:left;margin:20px 6px;overflow:hidden;width:245px}
+.taksitFiyat{color:#292929;font-size:10px;padding-bottom:5px;padding-top:6px}
+.taksitFiyatPesin{color:#d2063f;font-size:10px;font-weight:700;padding-bottom:5px;padding-top:6px}
+.taksitListeBaslik{color:#292929;font-size:12px;font-weight:700;height:20px;padding-top:10px}
+.taksitSatirBg{background-color:#FFF;border-bottom:1px solid #d9dada}
+.taksitSatirBgAlter{background-color:#edeeef;border-bottom:1px solid #d9dada}
+.taksitler{color:#069;font-size:10px;padding-bottom:6px;padding-left:10px;padding-top:10px;width:50px}
+.trigger{cursor:pointer;text-decoration:underline}
+
+.urunDetay{margin-bottom:20px;padding:20px 10px}
+.urunDetay h1{color:#069;font-size:13px;padding:15px 10px}
+.urunDetay p{color:#292929;font-size:12px;line-height:18px;padding:15px 10px}
+.urunDetay ul{color:#292929;font-family:Verdana;line-height:18px;list-style-type:circle;margin-left:40px}
+
+#urunAdi{border-bottom:1px dotted #eee; width:410px; padding:10px;}
+#urunIcons{ width:160px; padding-left:10px;}
+#urunIcon{height:195px; }
+#urunIcon img{border:none;cursor:pointer;margin:3px 0}
+#urunAdi h1{color:#525252;font-size:13px;font-weight:700;}
+
+.urun 
+{
+ border-bottom:1px dotted #eee;padding:10px 0px 2px 8px;height:18px;
+}
+
+.key{color:#069;width:160px;}
+.value{color:#292929; }
+.value a , #bilgi{color:#292929; text-decoration:underline;}
+.value a:hover, #bilgi:hover{color:#d2063f;}
+#yorum{border:1px solid #D9DADA; }
+
+#tdSepetEkle {text-align:right; width:200px;}
+
+#imgSepeteEkle {cursor:pointer;vertical-align:middle;}
+
+#yorumBaslik {color:#fff;background:url(../Images/Slices/tab_aktif.gif) repeat-x left;
+	  padding:8px 15px;margin-top:15px; border:solid 1px #d9dada; border-bottom: none;
+	  font-weight:bold;
+}
+	  
+.urunYorumAd{background-color:#fafafa;border-bottom:1px solid #d9dada;color:#069;display:inline;float:left;height:35px;padding-left:15px;padding-top:15px;width:673px}
+.urunYorumTarih{background-color:#fafafa;border-bottom:1px solid #d9dada;color:#069;display:inline;float:right;height:35px;padding-right:10px;padding-top:15px;text-align:right;width:200px}
+.urunYorumYazi{border-bottom:1px solid #d9dada;color:#525252;display:inline;float:left;height:auto;line-height:25px;overflow:hidden;padding:15px 15px 25px;width:864px}
+table.popup-contents td{text-align:left}
+table.popup-contents th{text-align:right;text-transform:lowercase}
+tr#release-notes td a{color:#333}
+
+.hediyelerDiv{ margin-top:20px;clear: both;width: 898px; }
+
+#kampanyaBaslik{height:30px; border:1px solid #ed9bb2;
+    background:#d1053e url(../Images/Slices/kampanyaBg.jpg) no-repeat right;
+}
+
+#kampanyaBaslik div
+{
+    color:#fff;
+    padding:7px 0 0 17px;
+    font-weight:bold;
+    font-size:14px;
+}
+
+
+.tblSecenek td
+{
+  padding:5px 2px;
+  vertical-align:middle;
+  color:#3466AA;
+}
+
+.tblSecenek td span
+{
+  color:#3466AA;
+  font-weight:bold;
+}
+
+
+.hediyeRadio{border-top:1px solid #d9dada;border-bottom:1px solid #d9dada;background-color:#e8f9fb;color:#3466aa;font-weight:700;padding:5px 0; }
+
+
+.hediyeDiv {
+float: left;
+display: inline;
+border-bottom: 1px solid #D9DADA;
+border-left: 1px solid #D9DADA;
+border-right: 1px solid #D9DADA;
+
+margin-bottom: 10px;
+width: 294px;
+margin-top: 2px;
+min-height:130px;
+}
+
+.aktiv {
+border-top:1px solid #9ADF8F;
+border-bottom: 1px solid #9ADF8F;
+color: #556652;
+background: #D5FFCF url(../Admin/images/mesaj_ok.jpg) right center no-repeat;
+}
+
+
+.kampanya
+{
+margin-top:10px;
+width:325px;   
+margin-right:5px; 
+}
+
+.topluList
+{
+ margin-top:10px;
+ width:260px;
+ }
+
+
+
+#kampanyaBilgi
+{
+background: url(../images/icons/star.jpg) left center no-repeat;
+color: #d2063f;
+border-bottom: 1px dotted #EEE;
+height:17px; 
+padding-left:20px;
+font-weight: bold;
+font-size: 11px;
+padding-top:5px;  
+
+}
+
+.kampanya ul{
+
+list-style-image: url(../Images/kam-ok.gif);
+color:#f64e7d;
+
+margin-left:20px;
+line-height:22px;
+}
+
+.kampanya ul li{
+border-bottom: 1px dotted #EEE;
+
+}
+
+.topluList table
+{
+ font-size:9px;   
+ width:100%;
+ border:1px dotted #EEE; 
+}
+
+.topluList table
+{
+ border: 1px solid #f0c8d3; 
+}
+
+.topluList table th
+{
+    background-color:#fae4ea;
+    color: #d2063f;
+    font-weight:bold;
+    line-height:22px;
+    border-bottom : 1px solid #f0c8d3; 
+}
+
+.topluList table td
+{
+line-height:22px;
+border-top:1px solid #faeef1; 
+}
+
+.bilgi_box td 
+{
+line-height:18px;
+border-bottom:1px dotted #EEE; 
+}
+
+.red
+{
+color: #d2063f;
+}
+.taksitaktiv{background-color:#d5ffcf;border-bottom:1px solid #9adf8f; border-top:1px solid #9adf8f; color:#556652}

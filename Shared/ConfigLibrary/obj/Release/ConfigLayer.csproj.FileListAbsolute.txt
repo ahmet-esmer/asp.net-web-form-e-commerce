@@ -1,0 +1,5 @@
+D:\Projeler\LensOptik\ConfigLayer\bin\Release\ConfigLayer.dll
+D:\Projeler\LensOptik\ConfigLayer\bin\Release\ConfigLayer.pdb
+D:\Projeler\LensOptik\ConfigLayer\obj\Release\ResolveAssemblyReference.cache
+D:\Projeler\LensOptik\ConfigLayer\obj\Release\ConfigLayer.dll
+D:\Projeler\LensOptik\ConfigLayer\obj\Release\ConfigLayer.pdb

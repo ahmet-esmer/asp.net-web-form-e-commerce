@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2446E986-F55C-4676-B41F-B976951FEE32}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DataAccessLayer</RootNamespace>
+    <AssemblyName>DataAccessLayer</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnketDB.cs" />
+    <Compile Include="BankaApiDB.cs" />
+    <Compile Include="BankaHesaplariDB.cs" />
+    <Compile Include="BankaTaksitDB.cs" />
+    <Compile Include="BaseDB.cs" />
+    <Compile Include="BankaDB.cs" />
+    <Compile Include="BannerDB.cs" />
+    <Compile Include="BankaMesajlariDB.cs" />
+    <Compile Include="UrunIndirimDB.cs" />
+    <Compile Include="HediyeUrunDB.cs" />
+    <Compile Include="HataMesajlariDB.cs" />
+    <Compile Include="IletisimDB.cs" />
+    <Compile Include="SepetDB.cs" />
+    <Compile Include="UrunTavsiyeDB.cs" />
+    <Compile Include="DuyuruDB.cs" />
+    <Compile Include="KargoDB.cs" />
+    <Compile Include="KullaniciPuanDB.cs" />
+    <Compile Include="KrediKartDB.cs" />
+    <Compile Include="KullaniciFaturaDB.cs" />
+    <Compile Include="KullaniciAdresDB.cs" />
+    <Compile Include="GunuUrunuDB.cs" />
+    <Compile Include="IcerikBaslikDB.cs" />
+    <Compile Include="IcerikDB.cs" />
+    <Compile Include="KategoriDB.cs" />
+    <Compile Include="KullaniciDB.cs" />
+    <Compile Include="MailDB.cs" />
+    <Compile Include="MarkaDB.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResimDB.cs" />
+    <Compile Include="SehirDB.cs" />
+    <Compile Include="SiparisDB.cs" />
+    <Compile Include="SQLHelper\SQLHelper.cs" />
+    <Compile Include="SSorularDB.cs" />
+    <Compile Include="UrunDB.cs" />
+    <Compile Include="UrunKampanyaDB.cs" />
+    <Compile Include="UrunYorumlariDB.cs" />
+    <Compile Include="XML\SecenekService.cs" />
+    <Compile Include="ZiyaretciDefteriDB.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Library\MailLayer\MailLibrary.csproj">
+      <Project>{C89EE051-0411-40E6-A68F-046A8F02076C}</Project>
+      <Name>MailLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Shared\ConfigLibrary\ConfigLibrary.csproj">
+      <Project>{BBCDD445-056C-43C7-BE64-E650FB37DBD5}</Project>
+      <Name>ConfigLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Shared\LoggerLibrary\LoggerLibrary.csproj">
+      <Project>{8D4A471A-B219-44CB-9C31-06690FAEE1F7}</Project>
+      <Name>LoggerLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj">
+      <Project>{45FEC1CD-6F8B-47FC-9C62-5C66178DC4A6}</Project>
+      <Name>BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ModelLayer\ModelLayer.csproj">
+      <Project>{2E8CE540-0F5F-412F-8DE5-480A7345AF24}</Project>
+      <Name>ModelLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

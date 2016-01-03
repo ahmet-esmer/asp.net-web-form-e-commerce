@@ -1,0 +1,10 @@
+D:\Projeler\LensOptik\Shared\ConfigLibrary\bin\Release\ConfigLibrary.dll
+D:\Projeler\LensOptik\Shared\ConfigLibrary\bin\Release\ConfigLibrary.pdb
+D:\Projeler\LensOptik\Shared\ConfigLibrary\obj\Release\ResolveAssemblyReference.cache
+D:\Projeler\LensOptik\Shared\ConfigLibrary\obj\Release\ConfigLibrary.dll
+D:\Projeler\LensOptik\Shared\ConfigLibrary\obj\Release\ConfigLibrary.pdb
+F:\Projeler\LensOptik\Shared\ConfigLibrary\bin\Release\ConfigLibrary.dll
+F:\Projeler\LensOptik\Shared\ConfigLibrary\bin\Release\ConfigLibrary.pdb
+F:\Projeler\LensOptik\Shared\ConfigLibrary\obj\Release\ResolveAssemblyReference.cache
+F:\Projeler\LensOptik\Shared\ConfigLibrary\obj\Release\ConfigLibrary.dll
+F:\Projeler\LensOptik\Shared\ConfigLibrary\obj\Release\ConfigLibrary.pdb

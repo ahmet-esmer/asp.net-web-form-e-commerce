@@ -1,0 +1,121 @@
+<%@ Master Language="C#" AutoEventWireup="true" Inherits="master_page_site" Codebehind="Site.master.cs" %>
+
+<%@ Register src="Include/OrtaMenu.ascx" tagname="OrtaMenu" tagprefix="uc2" %>
+<%@ Register src="Include/AltLinkler.ascx" tagname="AltLinkler" tagprefix="uc13" %>
+
+<%@ Register src="Include/popUp.ascx" tagname="popUp" tagprefix="uc1" %>
+
+
+<%@ Register src="Include/HediyeKampanya.ascx" tagname="HediyeKampanya" tagprefix="uc3" %>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-9" />
+    <meta http-equiv="Content-Language" content="tr" />
+    <meta name="Author" content="Ahmet ESMER : ahmetesmer@windowslive.com" />
+    <meta name="copyright" content="Ruhun Gemisi Reklam Tanıtım Halkla İlişkiler Ajansı" />
+    <link rel="shortcut icon" href="http://www.lensoptik.com.tr/favicon.ico"/>
+
+    <link rel="stylesheet" href="Style/Clear.css" type="text/css" />
+    <link rel="stylesheet" href="Style/Layout.css" type="text/css" />
+    <link rel="stylesheet" href="Style/MainStyle.css" type="text/css" />
+    <link rel="stylesheet" href="Style/BannerStyle.css" type="text/css" />
+
+    <!--[if lt IE 7]>
+      <link rel="stylesheet" href="Style/Browser/ie6.css" type="text/css" />
+    <![endif]-->
+
+    <script type="text/javascript" src="<%# ResolveUrl("~/Scripts/jquery-1.5.1.min.js") %>" ></script>
+    <script type="text/javascript" src="<%# ResolveUrl("~/Scripts/jquery-ui-1.8.13.custom.min.js") %>" ></script>
+    <script type="text/javascript" src="<%# ResolveUrl("~/Scripts/jquery.corner.js") %>" ></script>
+    <script type="text/javascript" src="<%# ResolveUrl("~/Scripts/jquery.cookie.js") %>" ></script>
+    <script type="text/javascript" src="<%# ResolveUrl("~/Scripts/main.js") %>" ></script>
+    <script type="text/javascript" src="<%# ResolveUrl("~/Scripts/jquery.easing.js") %>" ></script>
+    <script type="text/javascript" src="<%# ResolveUrl("~/Scripts/script.js") %>" ></script>
+     
+   
+   <asp:ContentPlaceHolder id="cphHead" runat="server" >
+
+   </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+  
+<div id="anaDiv">
+       <div id="anaIcerik"> 
+          
+          <div id="ust1" >
+             <asp:HyperLink ID="hlKulaniciAd" ClientIDMode="Static" NavigateUrl="~/Kullanici/Bilgileri.aspx" 
+              runat="server" ToolTip="Kulanıcı bilgilerini görüntüle" > </asp:HyperLink> 
+             <asp:HyperLink ID="hlBilgiSay" ClientIDMode="Static" NavigateUrl="~/Market/Sepet.aspx"
+              runat="server" ToolTip="Sepet detay görüntüle" > </asp:HyperLink>
+             <asp:HyperLink ID="hlToplam" ClientIDMode="Static" NavigateUrl="~/Market/Sepet.aspx" 
+              runat="server" ToolTip="Sepet detay görüntüle" > </asp:HyperLink>
+             <asp:LinkButton ID="btnCikis" ClientIDMode="Static"  Visible="false"  
+              runat="server" onclick="btnCikis_Click" ToolTip="Güvenli çıkış" Font-Bold="true" >Çıkış</asp:LinkButton>
+          </div>
+           
+            <div id="ust2" >
+              <a href="http://www.facebook.com/pages/LENS-OPT%C4%B0K/157117644319897" target="_blank"  >
+                <img src="<%: ResolveUrl("~/Images/icons/Facebook.jpg")%>" alt="Facebook" /></a>
+              <a href="http://twitter.com/#!/lensoptikcomtr" target="_blank">
+                 <img src="<%: ResolveUrl("~/Images/icons/Twitter.jpg")%>" alt="Twitter" /></a>
+              <a class="msnAdd" href="msnim:add?contact=info@lensoptik.com.tr">
+                <img src="<%: ResolveUrl("~/Images/icons/Mesenger.jpg")%>" alt="Mesenger" />
+              </a>
+             </div>
+            <div id="ust3" > 
+                <div  id="logo1"> 
+                    <a href="<%: ResolveUrl("~/") %>" title="Oline Lens Satış Sitesi" >
+                      <img src="<%: ResolveUrl("~/Images/LensOptikLogo.jpg")%>" alt="Lens Optik" />
+                    </a>
+                </div>
+                 <div id="logo2" >
+                   <img src="<%: ResolveUrl("~/Images/Slogan.jpg")%>" alt="Günvenli Lens Satış Merkezi" /> 
+                </div>
+            </div>
+            <div id="ust4" onkeypress="javascript:return WebForm_FireDefaultButton(event, 'btnArama')" >
+                <asp:ValidationSummary ValidationGroup="arama"  ClientIDMode="Static" ShowMessageBox="true" ShowSummary="false" ID="vsArama" runat="server" />
+
+                <div id="aramaTxtDiv">
+                 <asp:TextBox ID="txtAramaForm" ClientIDMode="Static" CssClass="txtAramaForm" runat="server" ></asp:TextBox>
+                </div>
+                <div id="aramaBtnDiv">
+                 <asp:ImageButton ID="btnArama" ImageUrl="~/images/buttonlar/btnArama.jpg"  runat="server" ValidationGroup="arama" onclick="btnArama_Click"  />
+
+                 <asp:RequiredFieldValidator  ID="rfvArama" ClientIDMode="Static" runat="server" ErrorMessage="Arama kriteri giriniz!" ValidationGroup="arama" ForeColor="White" ControlToValidate="txtAramaForm">*</asp:RequiredFieldValidator>
+
+                </div>
+            </div>
+            <div id="menuDiv" >
+                <uc2:OrtaMenu ID="OrtaMenu1" runat="server" />
+            </div>
+            <asp:ContentPlaceHolder id="cphContent" runat="server">
+   
+            </asp:ContentPlaceHolder>
+
+            <div class="clear"></div>
+            <div class="altLink" >
+                <uc13:AltLinkler ID="ucAltLinkler" runat="server" />
+            </div>
+            <div id="altCopyrihgt">
+            
+            <div class="line copy1">
+             <script type="text/javascript" src="https://seal.thawte.com/getthawteseal?host_name=www.lensoptik.com.tr&amp;size=S&amp;lang=en"></script>
+
+            </div> 
+
+            <div class="line copy2">  
+            <a href="http://www.ruhungemisi.com.tr" class="link" target="_blank" > Designed By  ruhungemisi.com.tr </a>
+            </div> 
+            </div>
+       </div>
+       </div>
+        <uc1:popUp ID="popUp1" runat="server" />
+        <uc3:HediyeKampanya ID="ucHediyeKampanya" runat="server" />
+    </form>
+</body>
+</html>

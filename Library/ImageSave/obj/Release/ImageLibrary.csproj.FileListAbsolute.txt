@@ -1,0 +1,15 @@
+D:\Projeler\LensOptik\ImageSave\bin\Release\ImageLibrary.dll
+D:\Projeler\LensOptik\ImageSave\bin\Release\ImageLibrary.pdb
+D:\Projeler\LensOptik\ImageSave\obj\Release\ResolveAssemblyReference.cache
+D:\Projeler\LensOptik\ImageSave\obj\Release\ImageLibrary.dll
+D:\Projeler\LensOptik\ImageSave\obj\Release\ImageLibrary.pdb
+D:\Projeler\LensOptik\Library\ImageSave\bin\Release\ImageLibrary.dll
+D:\Projeler\LensOptik\Library\ImageSave\bin\Release\ImageLibrary.pdb
+D:\Projeler\LensOptik\Library\ImageSave\obj\Release\ResolveAssemblyReference.cache
+D:\Projeler\LensOptik\Library\ImageSave\obj\Release\ImageLibrary.dll
+D:\Projeler\LensOptik\Library\ImageSave\obj\Release\ImageLibrary.pdb
+F:\Projeler\LensOptik\Library\ImageSave\bin\Release\ImageLibrary.dll
+F:\Projeler\LensOptik\Library\ImageSave\bin\Release\ImageLibrary.pdb
+F:\Projeler\LensOptik\Library\ImageSave\obj\Release\ResolveAssemblyReference.cache
+F:\Projeler\LensOptik\Library\ImageSave\obj\Release\ImageLibrary.dll
+F:\Projeler\LensOptik\Library\ImageSave\obj\Release\ImageLibrary.pdb

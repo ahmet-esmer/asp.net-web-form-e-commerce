@@ -1,0 +1,218 @@
+﻿<%@ Master  Language="C#" AutoEventWireup="true" Inherits="adminMasterPage" Codebehind="admin.master.cs" %>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+		<!--                       CSS                       -->
+		<link rel="stylesheet" href="adminStyle/reset.css" type="text/css" media="screen"/>
+		<link rel="stylesheet" href="adminStyle/style.css" type="text/css" media="screen"/>
+        <link rel="stylesheet" href="adminStyle/Admin.css" type="text/css" media="screen"/>
+
+		<!--                       Javascripts                -->
+		<script type="text/javascript" src="../Scripts/jquery-1.5.1.min.js"></script>
+        <script type="text/javascript" src="adminScript/facebox.js"></script>
+		<script type="text/javascript" src="adminScript/simpla.jquery.configuration.js"></script>
+        <link rel="shortcut icon" href="http://www.lensoptik.com.tr/favicon.ico"/>
+
+        <!--[if IE ]>
+        <link rel="stylesheet" href="adminStyle/ieStyle.css" type="text/css" media="screen"/>
+       <![endif]-->
+
+        <script type="text/javascript" language="javascript" >
+
+            function silKontrol() {
+
+                return confirm("Bu Kaydı Silmek İstiyormusunuz!");
+            }
+
+            function mesajKapat(a) {
+
+                document.getElementById(a).style.display = 'none'
+            }
+        </script>
+    <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+  <asp:ScriptManager ID="ScriptManager1" EnableScriptGlobalization="true" runat="server">
+        </asp:ScriptManager>
+   <div id="body-wrapper"> <!-- Wrapper for the radial gradient background -->
+		<div id="sidebar">
+        <div id="sidebar-wrapper"> <!-- Sidebar with logo and menu -->
+			<a href="#">
+            <img id="logo" src="images/logo.jpg" alt="Simpla Admin logo" />
+            </a>
+			<!-- Sidebar Profile links -->
+			<div id="profile-links">
+				Hoşgeldiniz <asp:HyperLink ToolTip="Kulanıcı Bilgileri" Font-Bold="true" ID="hlYonetici" runat="server"></asp:HyperLink>
+				<br />
+				<a href="../" target="_blank" title="Web Sitei">Siteyi Görüntüle</a> | <a href="Cikis.aspx" title="Güvenli Çıkış" >Çıkış</a>
+			</div>        
+			
+			<ul id="main-nav">  <!-- Accordion Menu -->
+				<li><!-- Add the class "no-submenu" to menu items with no sub menu -->
+					<a href="yonetici_arayuz.aspx" class="nav-top-item no-submenu" > Anasayfa </a>       
+				</li>
+                <li>
+					<a class="nav-top-item" > Siparişler</a>
+                    <ul>
+                        <li><a href="siparisler.aspx">Siparişler</a></li>
+						<li><a href="odemeRaporu.aspx">Sipariş Ödeme Bilgisi</a></li>
+					</ul>       
+				</li>
+            	<li> 
+					<a class="nav-top-item" href="#" > Ürün Kataloğu </a>
+					<ul >
+                        <li><a href="urunler.aspx?islem=genelUrun">Ürünler</a></li>
+						<li><a href="kategoriler.aspx">Kategoriler</a></li>
+                        <li><a href="markalar.aspx?islem=genel">Markalar</a></li>
+						<li><a href="urun_yorumlari.aspx">Ürün Yorumları</a></li> 
+	                	<li><a href="gununUrunler.aspx">Günün Ürünleri</a></li>
+                        <li><a href="hediyeUrun.aspx" > Hediye Ürün Kampanyaları </a></li>
+                         <li><a href="secenekler.aspx" > Seçenekler </a></li>
+					</ul>
+				</li>
+				<li> <!-- Add the class "current" to current menu item -->
+					<a class="nav-top-item" href="#"  > İçerik Yonetimi </a>
+					<ul >
+                        <li><a href="icerik_listele.aspx">Sayfalar</a></li>
+                        <li><a href="banner.aspx">Anasayfa Banner</a></li>
+						<li><a href="paneller.aspx">Paneller</a></li> 
+						<li><a href="ziyaretciDefteri.aspx?tumu=ok">Ziyaretçi Defteri</a></li>
+                        <li><a href="SSSorulanlar.aspx">Sık Sorulan Sorular</a></li>
+					</ul>
+				</li>
+                <li> 
+					<a class="nav-top-item" href="#"  > Kulanıcılar </a>
+					<ul >
+                         <li><a href="yoneticiler.aspx">Yöneticiler</a></li>
+				         <li><a href="uyeler.aspx?islem=genel">Üyeler</a></li>
+				         <li><a href="mail_gonder.aspx">Mail Gönderme</a></li>
+                         <li><a href="mailListesi.aspx">Mail Listesi</a></li>
+					</ul>
+				</li>
+                <li>
+					<a href="anketler.aspx" class="nav-top-item no-submenu" > Anketler</a>       
+				</li>
+                <li>
+					<a class="nav-top-item" href="#" > Toplu İşlemler </a>
+					<ul>
+                        <li><a href="topluHediyeEkle.aspx">Hediye Ekleme</a></li>
+					</ul>
+				</li>      
+				<li>
+					<a class="nav-top-item" href="#" > Ayarlar </a>
+					<ul  >
+                        <li><a href="genel_ayarlar.aspx">Genel Ayarlar</a></li>
+                        <li><a href="kampanyaFiyat.aspx">Kampanya Fiyat</a></li>
+                        <li><a href="bankalar.aspx">Sanal Poslar</a></li>
+				        <li><a href="banka_hesaplari.aspx">Hesap Numaraları</a></li>
+				        <li><a href="kargolar.aspx">Kargolar</a></li>
+                        <li><a href="bankaMesajlari.aspx">Banka Mesajları</a></li>
+                        <li><a href="hataMesajlari.aspx">Hata Mesajları</a></li>
+					</ul>
+				</li>      
+			</ul>
+            <!-- End #main-nav -->	
+		</div>
+        </div> <!-- End #sidebar -->
+		<!-- Main Content Section with everything -->
+		<div id="main-content"> 
+			<ul class="shortcut-buttons-set">
+				<li><a class="shortcut-button" href="urunler.aspx?islem=genelUrun"><span>
+					<img src="images/anaIcon/urunler.png" /><br />
+					Ürünler
+				</span></a></li>
+                
+                <li> <asp:HyperLink ID="hlMSiparis" CssClass="shortcut-button" 
+                      NavigateUrl="siparisler.aspx" runat="server"> <span>
+					 <img src="images/anaIcon/sepet.png" /><br />
+					Siparişler
+				</span></asp:HyperLink></li>
+				<li><a class="shortcut-button" href="icerik_listele.aspx"><span>
+					<img src="images/anaIcon/paper_content_pencil_48.png" /><br />
+					Sayfalar
+				</span></a></li>
+				<li><a class="shortcut-button" href="uyeler.aspx?islem=genel" ><span>
+					<img src="images/anaIcon/user.png" /><br />
+					Kullanıcılar
+				</span></a></li>
+
+                <li><a class="shortcut-button" href="anketler.aspx"><span>
+					<img src="images/anaIcon/anket.png" /><br />
+					Anketler
+				</span></a></li>
+                <li><a class="shortcut-button" href="genel_ayarlar.aspx"><span>
+					<img src="images/anaIcon/ayarlar.png" /><br />
+					Ayarlar
+				</span></a></li>
+				
+			</ul><!-- End .shortcut-buttons-set -->
+			<div class="clear"></div> <!-- End .clear -->
+            
+            <div class="mesajlar" >
+            <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+            <ContentTemplate>
+            <!-- İşlem Uyarı Alanları -->
+              <div id="Mesaj_Ok"  class="Mesaj_Ok" clientidmode="Static" runat="server" visible="false" >
+                <div  class="mesaj_clos">
+                    <img onclick="mesajKapat('Mesaj_Ok');" src="images/yes_no.gif" alt="Mesaji Kapat" />
+                </div>
+                <asp:Label ID="Mesaj_yaz_ok" runat="server" ></asp:Label>
+                </div>
+              <div id="Mesaj_Info"  class="Mesaj_Info" clientidmode="Static" runat="server" visible="false"  >
+                  <div  class="mesaj_clos" >
+                 <img onclick="mesajKapat('Mesaj_Info');" src="images/info_no.jpg" alt="Mesaji Kapat" />
+              </div>
+               <asp:Label ID="Mesaj_yaz_Info" runat="server"  > </asp:Label>
+                </div>
+              <div id="Mesaj_No"  class="Mesaj_No" clientidmode="Static" runat="server" visible="false" >
+                 <div class="mesaj_clos" >
+                    <img onclick="mesajKapat('Mesaj_No');" src="images/no.jpg" alt="Mesaji Kapat" />
+                </div>
+                <asp:Label ID="Mesaj_yaz_no" runat="server" ></asp:Label>
+                </div>
+              <div id="Mesaj_Sis" class="Mesaj_Sis" clientidmode="Static" runat="server" visible="false" >
+                 <div  class="mesaj_clos">
+                    <img onclick="mesajKapat('Mesaj_Sis');" src="images/sis_no.gif" alt="Mesaji Kapat" />
+                </div>
+                <asp:Label ID="Mesaj_yaz_sis" runat="server" ></asp:Label>
+                </div> 	
+            </ContentTemplate>
+            </asp:UpdatePanel>
+            </div>
+    <!-- Admin Sayfa İçerikleri-->
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    <!-- End .content-box -->
+			<div id="footer">
+				<small>
+                 Ruhun Gemisi Reklam Tanıtım Halkla İlişkiler Ajansı © Copyright 2011
+				</small>
+			</div><!-- End #footer -->
+		</div> <!-- End #main-content -->
+	</div>
+         <script type="text/javascript" language="javascript" >
+
+             function tabAc() {
+                 $('#link1').removeClass('default-tab current');
+                 $('#link1').removeClass('current');
+                 $('#link2').addClass('default-tab current');
+
+                 $('#tab1').removeClass('tab-content default-tab');
+                 $('#tab1').css("display","none");
+                 $('#tab1').addClass('tab - content');
+
+                 $('#tab2').removeClass('tab - content');
+                 $('#tab2').addClass('tab-content default-tab');
+
+                 //$('#link2').text("Duyuru Düzenle");
+             }
+
+        </script>
+    </form>
+</body>
+</html>

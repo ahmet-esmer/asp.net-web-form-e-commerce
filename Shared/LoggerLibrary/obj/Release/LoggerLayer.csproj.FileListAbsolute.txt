@@ -1,0 +1,7 @@
+D:\Projeler\LensOptik\LoggerLayer\bin\Release\LoggerLayer.dll
+D:\Projeler\LensOptik\LoggerLayer\bin\Release\LoggerLayer.pdb
+D:\Projeler\LensOptik\LoggerLayer\bin\Release\ConfigLayer.dll
+D:\Projeler\LensOptik\LoggerLayer\bin\Release\ConfigLayer.pdb
+D:\Projeler\LensOptik\LoggerLayer\obj\Release\ResolveAssemblyReference.cache
+D:\Projeler\LensOptik\LoggerLayer\obj\Release\LoggerLayer.dll
+D:\Projeler\LensOptik\LoggerLayer\obj\Release\LoggerLayer.pdb

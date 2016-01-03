@@ -1,0 +1,10 @@
+﻿#gvwListe td{vertical-align:middle}
+#gvwListe tr{border-bottom:1px solid #9ad0e7}
+.AlternatingRowStyle{background-color:#d5ebf5;height:35px}
+.AlternatingRowStyle:hover,.RowStyle:hover{background-color:#fae4ea}
+.HeaderStyle{border-bottom:1px solid #9ad0e7;height:20px;text-align:left}
+.PagerStyle{height:30px}
+.PagerStyle table{border-collapse:separate;border-spacing:1px 0;margin:15px}
+.PagerStyle table td{background-color:#118eea;border:1px solid #fff;padding:4px 8px}
+.RowStyle{background-color:#fff;height:35px}
+.sepetResim{padding:10px;width:70px}

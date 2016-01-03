@@ -1,0 +1,12 @@
+D:\Projeler\LensOptik\Library\SecureCookie\bin\Release\SecureCookie.dll
+D:\Projeler\LensOptik\Library\SecureCookie\bin\Release\SecureCookie.pdb
+D:\Projeler\LensOptik\Library\SecureCookie\obj\Release\ResolveAssemblyReference.cache
+D:\Projeler\LensOptik\Library\SecureCookie\obj\Release\SecureCookie.dll
+D:\Projeler\LensOptik\Library\SecureCookie\obj\Release\SecureCookie.pdb
+F:\Projeler\LensOptik\Library\SecureCookie\bin\Release\SecureCookie.dll
+F:\Projeler\LensOptik\Library\SecureCookie\bin\Release\SecureCookie.pdb
+F:\Projeler\LensOptik\Library\SecureCookie\obj\Release\ResolveAssemblyReference.cache
+F:\Projeler\LensOptik\Library\SecureCookie\obj\Release\SecureCookie.dll
+F:\Projeler\LensOptik\Library\SecureCookie\obj\Release\SecureCookie.pdb
+F:\Projeler\LensOptik\Library\SecureCookie\bin\Release\SecureCookie.dll.CodeAnalysisLog.xml
+F:\Projeler\LensOptik\Library\SecureCookie\bin\Release\SecureCookie.dll.lastcodeanalysissucceeded

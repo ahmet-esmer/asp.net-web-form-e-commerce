@@ -1,0 +1,9 @@
+D:\Projeler\LensOptik\MailLayer\bin\Debug\MailLayer.dll
+D:\Projeler\LensOptik\MailLayer\bin\Debug\MailLayer.pdb
+D:\Projeler\LensOptik\MailLayer\bin\Debug\LoggerLayer.dll
+D:\Projeler\LensOptik\MailLayer\bin\Debug\LoggerLayer.pdb
+D:\Projeler\LensOptik\MailLayer\obj\Debug\ResolveAssemblyReference.cache
+D:\Projeler\LensOptik\MailLayer\obj\Debug\MailLayer.dll
+D:\Projeler\LensOptik\MailLayer\obj\Debug\MailLayer.pdb
+D:\Projeler\LensOptik\MailLayer\bin\Debug\ConfigLayer.dll
+D:\Projeler\LensOptik\MailLayer\bin\Debug\ConfigLayer.pdb

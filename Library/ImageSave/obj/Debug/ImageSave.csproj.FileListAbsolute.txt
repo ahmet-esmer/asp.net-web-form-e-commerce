@@ -1,0 +1,5 @@
+D:\Projeler\LensOptik\ImageSave\bin\Debug\ImageSave.dll
+D:\Projeler\LensOptik\ImageSave\bin\Debug\ImageSave.pdb
+D:\Projeler\LensOptik\ImageSave\obj\Debug\ResolveAssemblyReference.cache
+D:\Projeler\LensOptik\ImageSave\obj\Debug\ImageSave.dll
+D:\Projeler\LensOptik\ImageSave\obj\Debug\ImageSave.pdb

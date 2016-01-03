@@ -1,0 +1,15 @@
+F:\ASP_NET\LensOptik\HttpSecureCookie\bin\Debug\AdamTibi.Web.Security.dll
+F:\ASP_NET\LensOptik\HttpSecureCookie\bin\Debug\AdamTibi.Web.Security.pdb
+F:\ASP_NET\LensOptik\HttpSecureCookie\obj\Debug\ResolveAssemblyReference.cache
+F:\ASP_NET\LensOptik\HttpSecureCookie\obj\Debug\AdamTibi.Web.Security.dll
+F:\ASP_NET\LensOptik\HttpSecureCookie\obj\Debug\AdamTibi.Web.Security.pdb
+D:\Projeler\LensOptik\HttpSecureCookie\bin\Debug\AdamTibi.Web.Security.dll
+D:\Projeler\LensOptik\HttpSecureCookie\bin\Debug\AdamTibi.Web.Security.pdb
+D:\Projeler\LensOptik\HttpSecureCookie\obj\Debug\ResolveAssemblyReference.cache
+D:\Projeler\LensOptik\HttpSecureCookie\obj\Debug\AdamTibi.Web.Security.dll
+D:\Projeler\LensOptik\HttpSecureCookie\obj\Debug\AdamTibi.Web.Security.pdb
+F:\Projeler\LensOptik\HttpSecureCookie\bin\Debug\AdamTibi.Web.Security.dll
+F:\Projeler\LensOptik\HttpSecureCookie\bin\Debug\AdamTibi.Web.Security.pdb
+F:\Projeler\LensOptik\HttpSecureCookie\obj\Debug\ResolveAssemblyReference.cache
+F:\Projeler\LensOptik\HttpSecureCookie\obj\Debug\AdamTibi.Web.Security.dll
+F:\Projeler\LensOptik\HttpSecureCookie\obj\Debug\AdamTibi.Web.Security.pdb

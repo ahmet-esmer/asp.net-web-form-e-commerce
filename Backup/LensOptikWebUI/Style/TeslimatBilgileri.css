@@ -1,0 +1,50 @@
+﻿.adresDiv{float:left;display:inline;border-bottom:1px solid #d9dada;border-left:1px solid #d9dada;border-right:1px solid #d9dada;margin-right:20px;margin-bottom:10px;width:425px;margin-top:5px;}
+.secenekDiv{border-top:1px solid #d9dada;border-bottom:1px solid #d9dada;background-color:#e8f9fb;color:#3466aa;font-weight:700;padding:5px 0;}
+.aktiv{border-top:1px solid #9adf8f;border-bottom:1px solid #9adf8f;color:#556652;background:#d5ffcf url(../Admin/images/mesaj_ok.jpg) right center no-repeat;}
+.Adres{min-height:90px;line-height:20px;padding:7px 10px;}
+#pnlAdresForm{float:left;display:inline;width:400px;border:1px solid #d9dada;margin-right:30px;padding:15px;}
+#pnlFaturaForm{float:left;display:inline;border:1px solid #d9dada;width:400px;padding:15px;}
+#pnlAdresForm div,#pnlFaturaForm div{color:#292929;padding:2px 1px;}
+.formBsalik{display:block;border-bottom:1px solid #d9dada;padding-bottom:10px;color:#118eea;}
+.faturaForm{width:100%;display:none;margin-bottom:25px;border-bottom:1px solid #d9dada;clear:both;}
+.baslik{background-color:#f2f3f4;height:35px;padding-top:10px;padding-left:15px;font-size:15px;font-weight:700;color:#525252;border:1px solid #d9dada;border-right:none;}
+.bilgi{height:50px;border-bottom:1px solid #d9dada;border-left:1px solid #d9dada;border-right:1px solid #d9dada;background-color:#fafafa;line-height:20px;color:#069;padding:15px 15px 10px 0;}
+.bilgi1{float:left;display:inline;width:724px;padding:3px;}
+.bilgi2{float:left;display:inline;width:100px;}
+.AdresBaslik{height:40px;line-height:20px;padding-top:20px;padding-left:10px;}
+.adresAd{padding-top:15px;font-size:12px;font-weight:700;line-height:20px;color:#069;}
+.kargoFiyat{font-size:13px;color:#525252;}
+.faturaSecim{padding-bottom:20px;}
+.tdUst{vertical-align:top;padding-left:10px;font-size:12px;color:#292929;width:150px;}
+.notZemin{height:160px;margin-bottom:25px;border-bottom:1px solid #d9dada;}
+.not1{float:left;display:inline;font-size:12px;color:#292929;width:150px;padding:15px 10px 10px;}
+.not2{float:left;display:inline;padding-top:15px;width:770px;}
+.osx{font-size:12px;cursor:pointer;color:#069;}
+.osx:hover{color:#d71048;}
+#osx-modal-content,#osx-modal-data{display:none;}
+#osx-overlay{background-color:#000;}
+#osx-container{background-color:#eee;color:#000;font:16px/24px "Lucida Grande",Arial,sans-serif;padding-bottom:4px;width:870px;-moz-border-radius-bottomleft:6px;-webkit-border-bottom-left-radius:6px;-moz-border-radius-bottomright:6px;-webkit-border-bottom-right-radius:6px;border-radius:0 0 6px 6px;-moz-box-shadow:0 0 64px #000;-webkit-box-shadow:0 0 64px #000;}
+#osx-container a{color:#ddd;}
+#osx-container #osx-modal-title{color:#000;background-color:#ddd;border-bottom:1px solid #ccc;font-weight:700;text-shadow:0 1px 0 #f4f4f4;text-align:left;padding:10px 30px;}
+#osx-container .close{display:none;position:absolute;right:0;top:0;}
+#osx-container .close a{display:block;color:#777;font-weight:700;text-decoration:none;text-shadow:0 1px 0 #f4f4f4;padding:6px 12px 0;}
+#osx-container .close a:hover{color:#000;}
+#osx-container #osx-modal-data{font-size:12px;padding:6px 12px;}
+#osx-container p{margin-bottom:10px;}
+#osx-container span{color:#777;}
+#facebox{top:0;left:0;z-index:100;}
+#facebox .popup{position:relative;margin:100px auto 0;}
+#facebox .b{background:url(../Admin/images/b.png);}
+#facebox .tl{background:url(../Admin/images/tl.png);}
+#facebox .tr{background:url(../Admin/images/tr.png);}
+#facebox .bl{background:url(../Admin/images/bl.png);}
+#facebox .br{background:url(../Admin/images/br.png);}
+#facebox table{border-collapse:collapse;}
+#facebox td{border-bottom:0;padding:0;}
+#facebox .body{background:#fff;padding:10px;}
+#facebox img{border:0;margin:0;}
+#facebox .footer{border-top:1px solid #DDD;padding-top:5px;margin-top:10px;text-align:right;}
+#facebox .tl,#facebox .tr,#facebox .bl,#facebox .br{height:10px;width:10px;overflow:hidden;padding:0;}
+.facebox_hide{z-index:-100;}
+.popUpBg{background-repeat:repeat; background:url(../Images/Slices/bg_trans.png)}
+#facebox .loading,#facebox .image{text-align:center;}
